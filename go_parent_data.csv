@@ -1,0 +1,145 @@
+﻿go_id,name,class
+GO:0001618,virus receptor activity,molecular function
+GO:0003677,dna binding,molecular function
+GO:0003723,rna binding,molecular function
+GO:0003744,cytoskeletal motor activity,molecular function
+GO:0003824,catalytic activity,molecular function
+GO:0003924,gtpase activity,molecular function
+GO:0005198,structural molecule activity,molecular function
+GO:0005215,transporter activity,molecular function
+GO:0008092,cytoskeletal protein binding,molecular function
+GO:0008289,lipid binding,molecular function
+GO:0009975,cyclase activity,molecular function
+GO:0016209,antioxidant activity,molecular function
+GO:0016491,oxidoreductase activity,molecular function
+GO:0016740,transferase activity,molecular function
+GO:0016787,hydrolase activity,molecular function
+GO:0016829,lyase activity,molecular function
+GO:0016853,isomerase activity,molecular function
+GO:0016874,ligase activity,molecular function
+GO:0031386,protein tag,molecular function
+GO:0038024,cargo receptor activity,molecular function
+GO:0042393,histone binding,molecular function
+GO:0044183,protein folding chaperone,molecular function
+GO:0045182,translation regulator activity,molecular function
+GO:0045735,nutrient reservoir activity,molecular function
+GO:0048018,receptor ligand activity,molecular function
+GO:0060089,molecular transducer activity,molecular function
+GO:0060090,molecular adaptor activity,molecular function
+GO:0090729,toxin activity,molecular function
+GO:0098631,cell adhesion mediator activity,molecular function
+GO:0098772,molecular function regulator activity,molecular function
+GO:0120274,virus coreceptor activity,molecular function
+GO:0140096,"catalytic activity, acting on a protein",molecular function
+GO:0140097,"catalytic activity, acting on DNA",molecular function
+GO:0140098,"catalytic activity, acting on RNA",molecular function
+GO:0140104,molecular carrier activity,molecular function
+GO:0140110,transcription regulator activity,molecular function
+GO:0140223,general transcription initiation factor activity,molecular function
+GO:0140299,small molecule sensor activity,molecular function
+GO:0140313,molecular sequestering activity,molecular function
+GO:0140657,ATP-dependent activity,molecular function
+GO:0003674,Other Molecular Function,molecular function
+GO:0000278,mitotic cell cycle,biological process
+GO:0000910,cytokinesis,biological process
+GO:0002181,cytoplasmic translation,biological process
+GO:0002376,immune system process,biological process
+GO:0003012,muscle system process,biological process
+GO:0003013,circulatory system process,biological process
+GO:0003014,renal system process,biological process
+GO:0003016,respiratory system process,biological process
+GO:0005975,carbohydrate metabolic process,biological process
+GO:0006091,generation of precursor metabolites and energy,biological process
+GO:0006260,DNA replication,biological process
+GO:0006281,DNA repair,biological process
+GO:0006310,DNA recombination,biological process
+GO:0006325,chromatin organization,biological process
+GO:0006351,DNA-templated transcription,biological process
+GO:0006355,regulation of DNA-templated transcription,biological process
+GO:0006399,tRNA metabolic process,biological process
+GO:0006457,protein folding,biological process
+GO:0006486,protein glycosylation,biological process
+GO:0006520,amino acid metabolic process,biological process
+GO:0006575,cellular modified amino acid metabolic process,biological process
+GO:0006629,lipid metabolic process,biological process
+GO:0006766,vitamin metabolic process,biological process
+GO:0006790,sulfur compound metabolic process,biological process
+GO:0006886,intracellular protein transport,biological process
+GO:0006913,nucleocytoplasmic transport,biological process
+GO:0006914,autophagy,biological process
+GO:0006954,inflammatory response,biological process
+GO:0007005,mitochondrion organization,biological process
+GO:0007010,cytoskeleton organization,biological process
+GO:0007018,microtubule-based movement,biological process
+GO:0007031,peroxisome organization,biological process
+GO:0007040,lysosome organization,biological process
+GO:0007059,chromosome segregation,biological process
+GO:0007155,cell adhesion,biological process
+GO:0007163,establishment or maintenance of cell polarity,biological process
+GO:0012501,programmed cell death,biological process
+GO:0015979,photosynthesis,biological process
+GO:0016071,mRNA metabolic process,biological process
+GO:0016073,snRNA metabolic process,biological process
+GO:0016192,vesicle-mediated transport,biological process
+GO:0022414,reproductive process,biological process
+GO:0022600,digestive system process,biological process
+GO:0023052,signaling,biological process
+GO:0030154,cell differentiation,biological process
+GO:0030163,protein catabolic process,biological process
+GO:0030198,extracellular matrix organization,biological process
+GO:0031047,RNA-mediated gene silencing,biological process
+GO:0032200,telomere organization,biological process
+GO:0034330,cell junction organization,biological process
+GO:0042060,wound healing,biological process
+GO:0042254,ribosome biogenesis,biological process
+GO:0044782,cilium organization,biological process
+GO:0048856,anatomical structure development,biological process
+GO:0048870,cell motility,biological process
+GO:0050877,nervous system process,biological process
+GO:0050886,endocrine process,biological process
+GO:0051604,protein maturation,biological process
+GO:0055085,transmembrane transport,biological process
+GO:0055086,nucleobase-containing small molecule metabolic process,biological process
+GO:0061007,hepaticobiliary system process,biological process
+GO:0061024,membrane organization,biological process
+GO:0065003,protein-containing complex assembly,biological process
+GO:0071554,cell wall organization or biogenesis,biological process
+GO:0071941,nitrogen cycle metabolic process,biological process
+GO:0072659,protein localization to plasma membrane,biological process
+GO:0098542,defense response to other organism,biological process
+GO:0098754,detoxification,biological process
+GO:0140013,meiotic nuclear division,biological process
+GO:0140014,mitotic nuclear division,biological process
+GO:0140053,mitochondrial gene expression,biological process
+GO:1901135,carbohydrate derivative metabolic process,biological process
+GO:0008150,Other Biological Process,biological process
+GO:0000228,nuclear chromosome,cellular component
+GO:0005576,extracellular region,cellular component
+GO:0005615,extracellular space,cellular component
+GO:0005618,cell wall,cellular component
+GO:0005634,nucleus,cellular component
+GO:0005635,nuclear envelope,cellular component
+GO:0005654,nucleoplasm,cellular component
+GO:0005694,chromosome,cellular component
+GO:0005730,nucleolus,cellular component
+GO:0005739,mitochondrion,cellular component
+GO:0005764,lysosome,cellular component
+GO:0005768,endosome,cellular component
+GO:0005773,vacuole,cellular component
+GO:0005777,peroxisome,cellular component
+GO:0005783,endoplasmic reticulum,cellular component
+GO:0005794,Golgi apparatus,cellular component
+GO:0005811,lipid droplet,cellular component
+GO:0005815,microtubule organizing center,cellular component
+GO:0005829,cytosol,cellular component
+GO:0005840,ribosome,cellular component
+GO:0005856,cytoskeleton,cellular component
+GO:0005886,plasma membrane,cellular component
+GO:0005929,cilium,cellular component
+GO:0009536,plastid,cellular component
+GO:0009579,thylakoid,cellular component
+GO:0030312,external encapsulating structure,cellular component
+GO:0031012,extracellular matrix,cellular component
+GO:0031410,cytoplasmic vesicle,cellular component
+GO:0043226,organelle,cellular component
+GO:0005575,Other Cellular Component,cellular component
