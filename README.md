@@ -28,7 +28,18 @@ Actual code is run on NDSU CCAST Cluster. Cluster code file is deg_parse.py
 uniprot_DEG_df.csv - uniprot_df database with only DEG data. Along with the "id" and "sequence" column, it has the MaxID (Highest Identity percent of all hits of each sequence) and totalHits (Total number of hits of each sequence) columns for Bacteria, Archaea and Eukaryotes
 
 ##
-DEG_df_parsed.csv - Tt is a nested dataframe csv. It contains all the parsed DEG data with the sequence id. It has 4 columns - "id", "bacteria_df", "archaea_df" and "eukaryotes_df". The df columns contains dataframes which holds the whole DEG request page for each sequence. These inner dataframes are stored in JSON format, which needs to be read using json library.
+DEG_df_parsed.csv - This is a nested dataframe csv. It contains all the parsed DEG data with the sequence id. It has 4 columns - "id", "bacteria_df", "archaea_df" and "eukaryotes_df". The df columns contains dataframes which holds the whole DEG request page for each sequence. These inner dataframes are stored in JSON format, which needs to be read using json library.
+
+##
+psort_parsed.txt - This is the text output file from parsing the PSORTb database for each sequence (29781) of uniprot_df.fasta file. PSORTb website - https://www.psort.org/psortb/index.html
+I used docker image of PSORTb command line tool in my PC. Docker link - https://hub.docker.com/r/brinkmanlab/psortb_commandline/
+This text file is unstructured and need to be structured
+
+##
+extract_psortb_texts.ipynb - This code extracts the columns from psortb parsed text file - psort_parsed.txt, create dataframe and write it in a csv file called 'psort_extract_df.csv'
+
+##
+psort_extract_df.csv - the csv file containing the structured output of psort_parsed.txt file. It has 19 columns along with the main sequence id column.
 
 
 
