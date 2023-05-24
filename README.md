@@ -29,6 +29,7 @@ uniprot_DEG_df.csv - uniprot_df database with only DEG data. Along with the "id"
 
 ##
 DEG_df_parsed.csv - This is a nested dataframe csv. It contains all the parsed DEG data with the sequence id. It has 4 columns - "id", "bacteria_df", "archaea_df" and "eukaryotes_df". The df columns contains dataframes which holds the whole DEG request page for each sequence. These inner dataframes are stored in JSON format, which needs to be read using json library.
+This is file is moved to BackupAeromonas folder as it is too big to push to Github.
 
 ##
 psort_parsed.txt - This is the text output file from parsing the PSORTb database for each sequence (29781) of uniprot_df.fasta file. PSORTb website - https://www.psort.org/psortb/index.html
