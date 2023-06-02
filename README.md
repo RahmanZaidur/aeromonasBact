@@ -8,6 +8,10 @@ go_parent_data.csv - This the database containing all the level 2 ancestors of t
 ##
 uniprot_df.csv - fasta sequences are pulled from Uniprot Database (www.uniprot.org) with search query "aeronomas" and selecting annotation score 3, 4 and 5. Downloaded sequences are compressed. Need to be decompressed using gzip.open. After decompressing, the three sequences are combined into uniprot_df and written to uniprot_df.csv
 1540 sequences had no go terms. Their entry was deleted from Uniprot. These sequences have been removed and file was updated.
+5 sequences had "X" in them. X means unknown amino acid. X makes it difficult to get the Physicochemical features with biopython. Those 5 sequences were removed.
+
+##
+remove_seq_with_x.ipynb - code to remove the sequences which had "X" in them. X means unknown amino acid. After removing, uniprot_df.csv file was updated.
 
 ##
 uniprot_df.fasta - fasta format of the file uniprot_df.csv
@@ -41,6 +45,21 @@ extract_psortb_texts.ipynb - This code extracts the columns from psortb parsed t
 
 ##
 psort_extract_df.csv - the csv file containing the structured output of psort_parsed.txt file. It has 19 columns along with the main sequence id column.
+
+##
+psort_scrapping.ipynb - This code is to extract PSORTb results directly from website using single fasta sequence.
+
+##
+psort_blast_scraping - This script automates the process of sending protein sequence data to the PSORTb database (https://db.psort.org/search/blast) and retrieving the prediction results. The input is a FASTA file containing protein sequences. For each sequence, the script sends a HTTP POST request to the PSORTb database with the protein sequence data. There are multiple hits for each sequence with different identity percentage. This code parses all the hits to extract relevant information.
+This database is slightly different then (https://www.psort.org/psortb/index.html), as this provides matched hits using blast algorithm. And the other one provides summerized result for input sequence
+
+##
+physicochemical_feature_collector.ipynb - Protein Feature Extraction Script.
+This script extracts various protein physiochemical features from uniprot_df dataframe of the protein sequences using the BioPython and ProPy libraries. It computes features such as molecular weight, instability index, isoelectric point, GRAVY, secondary structure fraction, grouped amino acid composition, and composition, transition, and distribution descriptors. The extracted features are then combined into a new DataFrame (features_df), which includes the 'id' column from the original DataFrame for easy reference. The dataframe is saved in a csv file called features_df.csv
+
+##
+features_df.csv - the csv file containing the physiochemical features of the protein sequences. It has one column with the original sequence id and other columns are for the features.
+
 
 
 
