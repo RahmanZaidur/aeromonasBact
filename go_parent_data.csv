@@ -39,7 +39,7 @@ GO:0140223,general transcription initiation factor activity,molecular function
 GO:0140299,small molecule sensor activity,molecular function
 GO:0140313,molecular sequestering activity,molecular function
 GO:0140657,ATP-dependent activity,molecular function
-GO:0003674,Other Molecular Function,molecular function
+GO:0003674,Molecular Function,molecular function
 GO:0000278,mitotic cell cycle,biological process
 GO:0000910,cytokinesis,biological process
 GO:0002181,cytoplasmic translation,biological process
@@ -112,7 +112,7 @@ GO:0140013,meiotic nuclear division,biological process
 GO:0140014,mitotic nuclear division,biological process
 GO:0140053,mitochondrial gene expression,biological process
 GO:1901135,carbohydrate derivative metabolic process,biological process
-GO:0008150,Other Biological Process,biological process
+GO:0008150,Biological Process,biological process
 GO:0000228,nuclear chromosome,cellular component
 GO:0005576,extracellular region,cellular component
 GO:0005615,extracellular space,cellular component
@@ -142,4 +142,4 @@ GO:0030312,external encapsulating structure,cellular component
 GO:0031012,extracellular matrix,cellular component
 GO:0031410,cytoplasmic vesicle,cellular component
 GO:0043226,organelle,cellular component
-GO:0005575,Other Cellular Component,cellular component
+GO:0005575,Cellular Component,cellular component
