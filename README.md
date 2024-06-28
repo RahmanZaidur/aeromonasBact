@@ -13,7 +13,7 @@ uniprot_df.csv - fasta sequences are pulled from Uniprot Database (www.uniprot.o
 5 sequences had "X" in them. X means unknown amino acid. X makes it difficult to get the Physicochemical features with biopython. Those 5 sequences were removed. Removed ids - ['Q9PRY2', 'P81903', 'Q03321', 'A0A428VHZ9', 'A0A1Q8F8M2']
 Now total Sequence- 29,776
 
-ID - "P86454" has no return in blast hits. It was removed.
+ID - "P86454" has no return in blast hits. It was removed
 ID - "Q9PRY2" has 2 blast hits, but both has query coverage 94% (<100%). It was already removed from uniprot_df, because it had X in the sequence. So, total sequences now - 29,775
 
 There are 86 unique GO terms, that makes 86 prediction classes
