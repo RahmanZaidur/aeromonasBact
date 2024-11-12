@@ -136,6 +136,32 @@ Also a function is defined to find out the class labels (GO Terms) of the predic
 randomForest_100_42.pkl - pickle file containing the trained "random forest" model with with model paramater, n_estimators=100, random_state=42
 
 
+##
+v2_ada_hypo_pred_withID.csv - includes the prediction of 83 hypothetical proteins by the adaboost. The file includes the sequence ID
+
+##
+v2_xgb_hypo_pred_withID.csv - includes the prediction of 83 hypothetical proteins by the XGBoost. The file includes the sequence ID
+
+##
+v2_rf_hypo_pred_withID.csv - includes the prediction of 83 hypothetical proteins by the Random Forest. The file includes the sequence ID
+
+##
+hypo_network_predictions.csv - contains the predictions by the similarity network. There should be 59 hypothetical nodes.
+
+connected_nodes- contains the nodes (proteins, both regular and hypothetical ones) that are connected to the hypothetical ones.
+connected_main_nodes - contains only the main nodes (regular proteins from main dataset). From 59, only 47 have connections with the main nodes. The rest 12 proteins are only connected to other hypothetical proteins. So This column has 12 empty rows.
+connected_main_nodes_id - the id of the nodes (proteins) in connected_main_nodes column
+main_go_terms - Associated GO Terms of the connected regular proteins in connected_main_nodes_id column
+unique_go_terms - The duplicate GO terms were removed and only kept the unique ones from the main_go_terms column. The final list
+is considered as the predicted go terms by the similarity network.
+
+Rest of the column contains the prediction from different machine learning algorithms for comparisons.
+
+
+##
+go_term_function_filtering.ipynb - Script to filter the GO Terms based on Vaccine and Treatment candidate keywords. First, we will get the unique go term set, predicted by each machine learning algorithm and the network analysis. And then filter them using the preset keywords. And finally, trace back the vaccine candidate protein sequences that contains those filtered GO Terms
+
+
 
 
 
